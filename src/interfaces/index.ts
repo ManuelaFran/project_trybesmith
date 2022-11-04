@@ -5,4 +5,5 @@ export interface IProducts {
 
 export interface IProductsId extends IProducts{
   id: number,
+  orderId?: number,
 }
