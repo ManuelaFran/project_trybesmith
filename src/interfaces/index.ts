@@ -21,3 +21,9 @@ export interface IUser extends UserCredentials {
 export interface UserId extends IUser {
   id: number,
 }
+
+export interface IOrder {
+  id: number,
+  userId: number,
+  productsIds: number,
+}
